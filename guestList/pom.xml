@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.com.pinalli</groupId>
+	<artifactId>guestList</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	
+
+	<!-- description>Demo project for Spring Boot</description> -->
+
+<!-- 	<properties> -->
+<!-- 		<java.version>1.8</java.version> -->
+<!-- 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version> -->
+<!-- 	</properties> -->
+
+	
+	<dependencies>
+	   <!-- Add typical dependencies for a web application -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>1.3.6.RELEASE</version>
+			</dependency>
+
+        <!--thymeleaf -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<version>1.4.2.RELEASE</version>
+		</dependency>
+		
+		<!--starter-data-jpa -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>1.3.6.RELEASE</version>
+		</dependency>
+		
+			<!--mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.39</version>
+		</dependency>
+		
+		<!-- DevTools -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<version>1.3.6.RELEASE</version>
+		</dependency>
+		
+		<!-- Dependencia do projeto enviaremail -->
+		<dependency>
+			<groupId>br.com.pinalli.enviaremail</groupId>
+			<artifactId>enviaremail</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+</dependencies>
+		
+</project>
+
